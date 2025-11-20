@@ -1,0 +1,46 @@
+
+# 2025-11-20 19:19:27.695766
++Code the following app
++```
++Idea: A tool to detect Price Gaps (CME gaps or weekend gaps).
++User Goal: Trade the "Gap Fill" strategy (price often returns to fill empty trading zones).
++Core Features (MVP):
++
++* Detect difference between Friday Close and Sunday Open (CME Futures).
++* Detect gaps on lower timeframes during high volatility.
++* Chart overlay showing open gaps.
++* Alert when price enters a "Gap Zone".
++
++Development Plan:
++
++1. Connect to CME Bitcoin Futures data (delayed is usually free) and Spot data.
++2. Logic: If Open_Current != Close_Previous, mark as Gap.
++3. Track status: "Unfilled" vs "Filled".
++4. Dashboard showing list of active unfilled gaps and their distance from current price.
++5. Push notifications when a gap fill starts.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-20 19:19:27.697383
++Code the following app
++```
++Idea: A tool to detect Price Gaps (CME gaps or weekend gaps).
++User Goal: Trade the "Gap Fill" strategy (price often returns to fill empty trading zones).
++Core Features (MVP):
++
++* Detect difference between Friday Close and Sunday Open (CME Futures).
++* Detect gaps on lower timeframes during high volatility.
++* Chart overlay showing open gaps.
++* Alert when price enters a "Gap Zone".
++
++Development Plan:
++
++1. Connect to CME Bitcoin Futures data (delayed is usually free) and Spot data.
++2. Logic: If Open_Current != Close_Previous, mark as Gap.
++3. Track status: "Unfilled" vs "Filled".
++4. Dashboard showing list of active unfilled gaps and their distance from current price.
++5. Push notifications when a gap fill starts.
++```
++
++Generate an app logo and update the app metadata title and description.
